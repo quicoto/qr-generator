@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 
-const origin = './styles.css';
-const target = './dist/styles.css';
+const origin = 'styles.css';
+const target = 'dist/styles.css';
 
 fs.copyFile(origin, target, (err) => {
   if (err) {

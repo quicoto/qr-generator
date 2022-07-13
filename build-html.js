@@ -1,7 +1,7 @@
 import * as fs from 'fs';
 
-const origin = './index.html';
-const target = './dist/index.html';
+const origin = 'index.html';
+const target = 'dist/index.html';
 
 fs.copyFile(origin, target, (err) => {
   if (err) {
