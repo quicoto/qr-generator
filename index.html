@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador QR | Ricard Torres</title>
+  <link rel="stylesheet" href="./styles.css?ver=1.0.0">
+  <script src="./index.js?ver=1.0.0" defer></script>
+</head>
+<body>
+  <header>
+    <div class="inner">
+      <h1>Generador QR</h1>
+      <h2 title="Hi, Raúl! 👋"><em>Para Raúl</em></h2>
+    </div>
+  </header>
+  <main>
+    <form>
+      <p>
+        Hola,
+      </p>
+      <label for="url">Escribe la URL</label>
+      <input required type="url" id="url" placeholder="https://leeyoungbadalona.com">
+      <p>
+        <button type="submit">Generar imagen</button>
+      </p>
+    </form>
+    <div class="spinner-wrapper" hidden>
+      <div class="spinner"></div>
+    </div>
+    <div class="qr-wrapper"></div>
+  </main>
+  <footer>
+    <div class="inner">
+      Con ❤️ de <a href="https://ricard.blog/" title="Ricard Torres Blog">Ricard Torres</a> | <a href="https://github.com/quicoto/qr-generator">GitHub</a>
+    </div>
+  </footer>
+</body>
+</html>
